@@ -1,0 +1,210 @@
+* {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  text-decoration: none;
+  scroll-behavior: smooth;
+  font-family: 'lato', sans-serif;
+}
+
+
+ul {
+  list-style: none;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+/*NavBar Social Media*/
+.NavBar-Social {
+  display: none;
+}
+
+.NavBar-Social {
+  background: #3E3E3E;
+  padding: 0 11.8rem;
+}
+
+.NavBar-Social ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: end;
+}
+
+.NavBar-Social a {
+  margin: 0 1.3rem;
+  color: #fff;
+}
+
+.NavBar-Social img {
+  margin-left: 1.3rem;
+}
+
+/*Nav Bar*/
+.NavBar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 4.7rem;
+  box-shadow: 0 0 0.62rem rgba(0, 0, 0, 0.2);
+  position: fixed;
+  width: 100%;
+  background: #fff;
+}
+
+.NavBar-Logo {
+  align-self: center;
+  height: 100%;
+ 
+}
+
+.NavBar-Logo img {
+  object-fit: cover;
+  height: 95%;
+}
+
+.NavBar ul{
+  display: none;
+}
+
+/*Main Content*/
+.mainContainer {
+  margin-top: 4.7rem;
+  background: linear-gradient(rgba(226, 226, 226, 0), rgba(226, 226, 226, 0.9)), url('sources/Mayan-Background.svg');
+  padding: 5.5rem 0.75rem;
+}
+
+.greetings {
+  font-weight: normal;
+  color: #ec4327;
+  font-size: 1.8rem;
+  margin: 0;
+}
+
+h1 {
+  color: transparent;
+  font-family: 'lato', sans-serif;
+  font-weight: 900;
+  font-size: 2rem;
+  text-transform: uppercase;
+  background-image: linear-gradient(rgba(55, 54, 54, 0), rgba(55, 54, 54, 0.9)), url('sources/titlebackground.jpeg');
+  background-size: cover;
+  background-position: top;
+  background-clip: text;
+  -webkit-background-clip: text;
+  margin-top: 0;
+}
+
+.introduction {
+  background: #fff;
+  font-size: 0.8rem;
+  font-family: 'lato',sans-serif;
+  font-weight: 400;
+  color: #515151;
+  margin: 2.6rem 0;
+}
+
+.date {
+  font-size: 1.25rem;
+  font-family: 'Gothic A1', sans-serif;
+  font-weight: 900;
+  color: #595959;
+}
+
+.location {
+  font-size: 0.8rem;
+  font-family: 'Gothic A1', sans-serif;
+  color: #868686;
+}
+
+/*main program*/
+.mainProgram {
+  background: url('sources/background-musicos.svg');
+  background-repeat: no-repeat;
+  padding: 0;
+}
+
+.grid {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 7fr;
+  row-gap: 0.3rem;
+  padding: 0 0.75rem;
+}
+
+.mainProgram-head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1.87rem 0 0;
+  font-size: 1.25rem;
+  font-family: 'lato',sans-serif;
+  font-weight: 400;
+  color: #fff;
+}
+
+hr {
+  border: 0;
+  background-color: #ec5242;
+  margin: 1rem 0 1.87rem;
+  width: 1.87rem;
+  height: 0.12rem;
+}
+
+.forum {
+  padding: 0.7rem;
+  padding-right: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: auto;
+  background: rgba(59, 62, 69, 0.13);
+}
+
+.forum img {
+  width: 16%;
+}
+
+.forum h3 {
+  width: 23%;
+  font-size: 0.8rem;
+  font-family: 'lato',sans-serif;
+  font-weight: 700;
+  color: #FF5438;
+  text-align: center;
+}
+
+.forum p {
+  width: 55%;
+  font-size: 0.7rem;
+  font-family: 'lato',sans-serif;
+  font-weight: 700;
+  color: #fff;
+}
+
+.film {
+  filter: invert(100%) sepia(4%) saturate(7467%) hue-rotate(269deg) brightness(111%) contrast(100%); 
+}
+
+.concerts {
+  filter: invert(100%) sepia(4%) saturate(7467%) hue-rotate(269deg) brightness(111%) contrast(100%); 
+}
+
+.button1 {
+  display: flex;
+  justify-content: center;
+}
+
+.button1 button{
+  margin: 1.87rem 0;
+  background: #FF4F38;
+  padding: 1.25rem 3.12rem;
+  color: #fff;
+  font-size: 0.8rem;
+  font-family: 'lato',sans-serif;
+  font-weight: 700;
+}
