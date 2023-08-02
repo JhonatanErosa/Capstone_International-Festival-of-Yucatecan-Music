@@ -388,10 +388,194 @@ footer img {
   height: 2.5rem;
 }
 
-footer p {
+.footerText  {
   font-size: 0.62rem;
   font-family: 'Lato', sans-serif;
   font-weight: 700;
   color:#3B3E45;
   width: 55%;
+}
+
+.koreanText {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .NavBar-Social {
+    display: flex;
+    background: #3E3E3E;
+    position: fixed;
+    width: 100%;
+  }
+
+  .NavBar-Social ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: end;
+    margin-left: 25%;
+  }
+  
+  .NavBar-Social a {
+    margin: 0 1.3rem;
+  }
+  
+  .NavBar-Social img {
+    margin-left: 1.3rem;
+  }
+
+  .NavBar {
+    margin-top: 1.313rem;
+  }
+
+  .hamburger-menu {
+    display: none;
+  }
+
+  .NavBar-Logo {
+    padding-left: 8%;
+  }
+
+  .navItems {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 7%;
+    width: 68%;
+    align-items: center;
+  }
+
+  .navItems a{
+    font-size: 0.87rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: 800;
+    color: #868686;
+  }
+
+  .navItems a:hover {
+    color: #FF5438;
+    transform: scale(1.3);
+    transition: 0.3s;
+  }
+
+  .navItems button {
+    border: 5px solid #EC4327;
+    font-size: 0.87rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: 800;
+    color: #EC4327;
+    padding: 0.2rem;
+  }
+
+  .navItems li {
+    text-align: center;
+    width: 100%
+  }
+
+  .aboutContainer {
+    padding: 4rem 16% 5.5rem 16%;
+  }
+
+  .aboutLogo {
+    margin: 0 16%;
+  }
+
+  .pastFestival {
+    margin: 0 16%;
+  }
+
+  .pastCards {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .festival2021 {
+    width: 49%;
+  }
+
+  .festival2022 {
+    margin: 2.7rem 0 1.6rem;
+    width: 49%;
+  }
+
+  footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1.56rem;
+  }
+  
+  footer img {
+    height: 4rem;
+  }
+  
+  .footerText {
+    font-size: 0.62rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    color:#3B3E45;
+    width: 55%;
+  }
+
+  .footerText p{
+    margin-bottom: 1rem
+  }
+
+  .koreanText {
+    display: flex;
+  }
+
+}
+
+@media (min-width: 1024px) {
+  .NavBar-Social ul {
+    margin-left: 39%;
+  }
+
+  .navItems {
+    margin-left: 20%;
+    width: 54%;
+  }
+
+  .mainContainer {
+    padding-top: 10rem;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 5.5rem 15% 5.5rem 15%;
+  }
+}
+
+@media (min-width: 1280px) {
+  .NavBar-Social ul {
+    margin-left: 47%;
+  }
+
+  .NavBar-Logo {
+    padding-left: 12%;
+  }
+
+  .navItems {
+    margin-left: 30%;
+    width: 40%;
+  }
+
+  h1 {
+    margin: 2rem;
+  }
+
+  .introduction {
+    margin: 4rem 0;
+  }
+
+  .contact {
+    margin: 2rem 0;
+  }
+
+  .festival2021 {
+    width: 45%;
+  }
+
+  .festival2022 {
+    width: 45%;
+  }
 }

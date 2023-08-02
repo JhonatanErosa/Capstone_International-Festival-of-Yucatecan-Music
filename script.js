@@ -147,6 +147,7 @@ function createCards2(artistData) {
 
 function cards () {
   const container = document.getElementById('container');
+  container.classList.add('container');
 
   for (let i = 0; i < 2; i += 1){
     const card1 = createCards1(artistData[i]);
