@@ -115,6 +115,7 @@ button {
   padding: 2rem 0.75rem;
   justify-content: center;
   align-items: center;
+  z-index: 10;
 }
 
 .navItems-active a {
@@ -215,7 +216,7 @@ h1 {
   color: #fff;
 }
 
-hr {
+.mainProgram-head hr {
   border: 0;
   background-color: #ec5242;
   margin: 1rem 0 1.87rem;
@@ -254,16 +255,6 @@ hr {
   color: #fff;
 }
 
-.film {
-  filter: invert(100%) sepia(4%) saturate(7467%) hue-rotate(269deg) brightness(111%) contrast(100%); 
-  z-index: -10;
-}
-
-.concerts {
-  filter: invert(100%) sepia(4%) saturate(7467%) hue-rotate(269deg) brightness(111%) contrast(100%); 
-  z-index: -10;
-}
-
 .button1 {
   display: flex;
   justify-content: center;
@@ -277,4 +268,103 @@ hr {
   font-size: 0.8rem;
   font-family: 'lato',sans-serif;
   font-weight: 700;
+}
+
+.grid-cards{
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 7fr;
+  row-gap: 0.3rem;
+  padding: 0 0.75rem;
+}
+
+/* artists section */
+.artists-head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1.87rem 0 0;
+  font-size: 1.25rem;
+  font-family: 'lato',sans-serif;
+  font-weight: 400;
+  color: #000;
+}
+
+.artists-head hr {
+  border: 0;
+  background-color: #A04038;
+  margin: 1rem 0 1.87rem;
+  width: 1.87rem;
+  height: 0.12rem;
+}
+
+.cardContent {
+  margin-bottom: 1.4rem;
+  display: flex;
+  align-items: center;
+}
+
+.imageContainer {
+  width: 31%;
+}
+
+.imageContainer img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.textContent {
+  margin-left: 4%;
+  width: 80%;
+  padding: 0;
+}
+
+.textContent hr{
+  border: 0;
+  background-color: #D9D9D9;
+  margin: 0.4rem 0;
+  width: 1rem;
+  height: 0.1rem;
+}
+
+.title {
+  font-size: 0.9rem;
+  font-family: 'lato', sans-serif;
+  font-weight: 700;
+}
+
+.description {
+  font-size: 0.62rem;
+  color: #F78C89;
+}
+
+.subDescription {
+  font-size: 0.56rem;
+  color: #000;
+}
+
+.moreButton {
+  padding: 10px 20px;
+  border: 1px solid #DCDCDC;
+  background-color: #FFF;
+  color: #000;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 4rem;
+  font-size: 0.7rem;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
 }
