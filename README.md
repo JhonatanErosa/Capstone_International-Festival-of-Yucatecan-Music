@@ -4,7 +4,7 @@
   <img src="sources/MyLogo.jpg" alt="logo" width="140"  height="auto" />
   <br/>
   <h3><b>International Festival of Yucatecan Music</b></h3>
-	<img src="sources/logo_cabecera.png" alt="logo" width="140"  height="auto" />
+	<img src="sources/favicon1.png" alt="logo" width="140"  height="auto" />
 	<br/>
 	<br/>
 </div>  
@@ -58,7 +58,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link here!](https://)
+- [Live Demo Link here!](https://jhonatanerosa.github.io/Capstone_International-Festival-of-Yucatecan-Music/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
