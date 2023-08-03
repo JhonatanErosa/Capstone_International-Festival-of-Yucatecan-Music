@@ -63,7 +63,7 @@ const artistData = [
 ];
 
 function createCards1(artistData) {
-  const cardContent = document.createElement('div');
+  const cardContent = document.createElement('article');
   cardContent.classList.add('cardContent');
 
   const imageContainer = document.createElement('div');
@@ -102,7 +102,7 @@ function createCards1(artistData) {
 }
 
 function createCards2(artistData) {
-  const cardContent2 = document.createElement('div');
+  const cardContent2 = document.createElement('article');
   cardContent2.classList.add('cardContent');
   cardContent2.classList.add('hide');
   cardContent2.setAttribute('id', 'hideCards');

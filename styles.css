@@ -140,9 +140,9 @@ h1 {
   font-weight: 900;
   font-size: 2rem;
   text-transform: uppercase;
-  background-image: linear-gradient(rgba(55, 54, 54, 0), rgba(55, 54, 54, 0.9)), url('sources/titlebackground.jpeg');
+  background-image: linear-gradient(rgba(250, 47, 47, 0), rgba(250, 47, 47, 0.9)), url('sources/bgOrange.png');
   background-size: cover;
-  background-position: top;
+  background-position: center;
   background-clip: content-box;
   -webkit-background-clip: text;
   margin-top: 0;
@@ -172,7 +172,7 @@ h1 {
 
 /* main program */
 .mainProgram {
-  background: linear-gradient(rgba(8, 11, 34, 0.6), rgba(8, 11, 34, 0.8)), url('sources/bg-program.svg');
+  background: linear-gradient(rgba(40, 40, 81, 0.6), rgba(36, 36, 66, 0.8)), url('sources/diamond-patterns-in-black-3d-3xfdlpiul77pfiwp.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -214,6 +214,10 @@ h1 {
   height: auto;
   background: rgba(172, 176, 184, 0.13);
   margin-bottom: 0.5rem;
+}
+
+.forum:hover {
+  border: 1px solid #fff;
 }
 
 .forumImage {

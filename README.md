@@ -158,6 +158,8 @@ If you like this project support us with a ⭐️
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
+Original design idea by <a href='https://www.behance.net/adagio07'>Cindy Shin in Behance.</a>
+
 I would like to thank the entire Microverse team.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
